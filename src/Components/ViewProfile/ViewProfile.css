@@ -1,0 +1,86 @@
+.imgHolder {
+    position: relative;
+  }
+.imgHolder:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0px;
+    height: 95px;
+    width: 95px;
+    /* background-color: white; */
+    background-image:url('../../Assets/generic-profilePicture.jpg');
+    background-size: cover;
+  }
+.imgHolder{
+    /* height: 150px; */
+    /* background-image: url('../../Assets/generic-profilePicture.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.request-btn, .request-btn:hover{
+    color: #fff ;
+    background-color: #55b9be;
+    border-color: #55b9be;
+}
+.message-btn, .message-btn:hover{
+    color: #fff;
+    background-color: #F5B120;
+    border-color: #F5B120;
+}
+.profile-det{
+    color: #495057;
+}
+.back{
+    cursor: pointer;
+}
+.request-btn:before{
+    content: "+";
+    margin-right: 3px;
+    font-weight: 900;
+}
+.request-sent-btn, .request-sent-btn:hover{
+    color: #fff;
+    background-color: #004085;
+    border-color: #004085;
+}
+.request-sent-btn:before{
+    content: "✔";
+    margin-right: 3px;
+    font-weight: 900;
+}
+.request-accepted-btn, .request-accepted-btn:hover{
+    color: #fff;
+    background-color: #155724;
+    border-color: #155724;
+}
+.request-accepted-btn:before{
+    content: "✔";
+    margin-right: 3px;
+    font-weight: 900;
+}
+.request-rejected-btn, .request-rejected-btn:hover{
+    color: #fff;
+    background-color: #721c24;
+    border-color: #721c24;
+}
+.request-rejected-btn:before{
+    content: "✘";
+    margin-right: 3px;
+    font-weight: 900;
+}
+.spec-stat{
+    -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(10px);
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

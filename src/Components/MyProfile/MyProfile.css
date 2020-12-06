@@ -1,0 +1,51 @@
+.profileFormContainer{
+    /* background-color: #fff; */
+    margin: 0 auto;
+}
+.whiteBg {
+    background-color: #fff;
+}
+.tempHeight{
+    height:500px;
+}
+.imgHolder{
+    /* height: 150px; */
+    background-image: url('../../Assets/generic-profilePicture.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profileFormContainer .form-group{
+    margin-bottom:0.1rem;
+}
+/**** Added by Amrita ***/
+.user-image-upload{
+    cursor: pointer;
+    color:#484a4b
+}
+.profile-button{
+    background-color: #55b9be;
+    border-color: #55b9be;
+    border-radius: 30px;
+    color: #ffffff;
+}
+.profile-button:hover{
+    background-color: #F5B120;
+    border-color: #F5B120;
+}
+.back{
+    cursor: pointer;
+}
+.imgHolder {
+    position: relative;
+  }
+  .imgHolder:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0px;
+    height: 41px;
+    width: 95px;
+    background-color: white;
+    background-image:url('../../Assets/generic-profilePicture.jpg');
+  }

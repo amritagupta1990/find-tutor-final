@@ -1,0 +1,43 @@
+.input-group-text{
+    background-color: #ffffff;
+}
+.notification-block{
+    /* height: 55vh;
+    background-color: #ffff;
+    box-shadow: -1px 4px 28px -16px rgba(85,185,190,1);
+    border-radius: 10px; */
+    min-height: 286px;
+    background-color: #ffff;
+    box-shadow: -1px 4px 28px -16px rgba(85,185,190,1);
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.custom-range::-webkit-slider-thumb {
+    background: #55b9be;
+  }
+  
+  .custom-range::-moz-range-thumb {
+    background: #55b9be;
+  }
+  
+  .custom-range::-ms-thumb {
+    background: #55b9be;
+  }
+  .right-fixed-panel{
+      position: fixed;
+      right: 0;
+      top: 65px;
+  }
+  .accept-icon, .accept-icon:hover{
+    color: #155724;
+    cursor: pointer;
+  }
+  .reject-icon, .reject-icon:hover{
+    color: #721c24;
+    cursor:pointer;
+  }
+  .radioGroup{
+    display: inline-flex;
+    font-weight: 600;;
+  }

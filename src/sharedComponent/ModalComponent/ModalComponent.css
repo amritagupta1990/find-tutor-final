@@ -1,0 +1,27 @@
+.error-span{
+    color: rgb(163, 6, 6);
+    font-size: 14px;
+}
+.errorBtn{
+    color: #fff;
+    background-color: #721c24 !important;
+    border-color: #721c24 !important;
+}
+.successBtn{
+    color: #fff;
+    background-color: #155724 !important;
+    border-color: #155724 !important;
+}
+.errorHeader{
+    background-color: #721c24;
+    color: #fff;
+    padding: .5rem;
+}
+.successHeader{
+    background-color: #155724;;
+    color: #fff;
+    padding: .5rem;
+}
+.errorHeader .close, .successHeader .close{
+    color: #fff;
+}

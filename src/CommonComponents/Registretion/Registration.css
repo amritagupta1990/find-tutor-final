@@ -1,0 +1,45 @@
+.registration-container {
+    width: 40%;
+    margin: 12px auto;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 2px 3px #cccccc;
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.title-header {
+    /* background-color: antiquewhite; */
+    background-color: #55b9be;
+    margin: -15px -15px 15px -15px;
+    height: 50px;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+}
+
+.title-header h5{
+    padding-top: 10px;
+}  
+
+.back-prev, .back-prev a {
+    color: #167bff;
+    cursor: pointer;
+    margin: 20px;
+}
+.btn-app-primary{
+    background-color: #55b9be;
+    border: 1px solid #55b9be;
+}
+.btn-app-primary:hover{
+    background-color: #55b9be;
+    border: 1px solid #55b9be;
+}
+.btn-app-outline{
+    background-color: rgba(190, 191, 191, 0.8588235294117647);
+    border: 1px solid #55b9be;
+}
+.btn-app-outline:hover{
+    background-color: #55b9be !important;
+    border: 1px solid #55b9be !important;
+}

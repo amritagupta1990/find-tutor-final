@@ -1,0 +1,71 @@
+.user-block{
+    background-color: #fff;
+    height: 250px;
+    margin-left: 67px;
+    -webkit-box-shadow: -1px 4px 28px -16px rgba(85,185,190,1);
+    -moz-box-shadow: -1px 4px 28px -16px rgba(85,185,190,1);
+    box-shadow: -1px 4px 28px -16px rgba(85,185,190,1);
+    border-radius: 10px;
+}
+.imageHolder{
+    text-align: center;
+}
+.imageHolder img{
+    /* height: 110px;
+     */
+     width: 120px;
+}
+.user-name-holder:hover{
+    color: #55b9be;
+}
+.user-info-holder span{
+    color: #333333;
+    display: block;
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+.about-user{
+    line-height: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 90%;
+    font-size: 14px;
+}
+.read-more-btn{
+    background-color: #55b9be;
+    border-color: #55b9be;
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 33px;
+    padding: 0 24px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.read-more-btn:hover{
+    background-color:#F5B120;
+    border-color: #F5B120;
+}
+.imgHolder {
+    position: relative;
+  }
+.imgHolder:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0px;
+    height: 95px;
+    width: 95px;
+    background-image:url('../../Assets/generic-profilePicture.jpg');
+    background-size: cover;
+  }
+.imgHolder{
+    /* height: 150px;
+    background-image: url('../../Assets/generic-profilePicture.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}

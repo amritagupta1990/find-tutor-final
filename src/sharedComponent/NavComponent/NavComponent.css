@@ -1,0 +1,25 @@
+.navbar { 
+    /* background-color: rgb(78, 11, 11);  */
+    background-color: #55b9be;
+}
+.navbar, a, .navbar-nav, .navbar-light .nav-link {
+  color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.em;
+  color: #9FFFCB;
+}
+/* .form-center {
+  position: absolute !important;
+  left: 25%;
+  right: 25%;
+
+} */
+
+.white-col {
+    color:#fff !important;
+}
+.bolder-font{
+  font-weight: 500;
+  font-size: 25px;
+}

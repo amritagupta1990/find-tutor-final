@@ -1,0 +1,45 @@
+{
+    "userResp": [
+        {
+            "firstName": "",
+            "lastName": "",
+            "userName": "Rupayan",
+            "email": "rupayan.dey1990@gmail.com",
+            "role": "Teacher",
+            "specialization": "Computer",
+            "other Specialization": ["History", "Geography"],
+            "avatar": "",
+            "monthly_fees_min": "1000",
+            "monthly_fees_max": "5000",
+            "isProfileUpdate": "false"
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "userName": "Amrita",
+            "email": "gupta1.amrita@gmail.com",
+            "role": "Teacher",
+            "specialization": "Biology",
+            "other Specialization": ["Physics", "Mathematics"],
+            "avatar": "",
+            "monthly_fees_min": "1000",
+            "monthly_fees_max": "5000",
+            "isProfileUpdate": "false"
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "userName": "Anushka",
+            "email": "aroy29oct@gmail.com",
+            "role": "Teacher",
+            "specialization": "Computer",
+            "other Specialization": ["Physics", "Mathematics","Digital Electronics"],
+            "avatar": "",
+            "monthly_fees_min": "2000",
+            "monthly_fees_max": "8000",
+            "isProfileUpdate": "false"
+        }
+
+
+    ]
+}
