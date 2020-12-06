@@ -80,6 +80,9 @@ class LoginComponent extends Component {
                         
                         
                     }else{
+                        this.setState({
+                            showLoader: false
+                        });
                         this.onResponse(resp.data.message, resp.data.error);
                     }
                     
